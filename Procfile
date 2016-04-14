@@ -1,0 +1,1 @@
+web: bundle exec ruby fomotify.rb -p $PORT

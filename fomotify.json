@@ -1,0 +1,21 @@
+{
+  "photos": [
+    {
+      "id": 1,
+      "title": "Walter's face",
+      "summary": "Your face on a volcano!",
+      "location": "Hawaii",
+      "price": 100,
+      "url": "url"
+    },
+    {
+      "id": 2,
+      "title": "Walter's face agaaaain",
+      "summary": "Islands, ya mannnn!",
+      "location": "Jamaica",
+      "price": 50,
+      "url": "url"
+    }
+  ]
+}
+      
