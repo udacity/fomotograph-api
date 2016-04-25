@@ -2,20 +2,28 @@
   "photos": [
     {
       "id": 1,
-      "title": "Walter's face",
-      "summary": "Your face on a volcano!",
-      "location": "Hawaii",
-      "price": 100,
-      "url": "url"
+      "title": "Basse-Ville, Québec",
+      "summary": "Pretend you've been strolling down the charming streets of Basse-Ville, Québec. Order your Fomo-shopped Québec photos today!",
+      "location": "Canada",
+      "price": 30,
+      "url": "/images/basse-ville.jpg"
     },
     {
       "id": 2,
-      "title": "Walter's face agaaaain",
-      "summary": "Islands, ya mannnn!",
-      "location": "Jamaica",
+      "title": "La Citadelle de Québec",
+      "summary": "Do you like castles? Do you like Canada? Pretend you visited a castle in Canada! Order your Fomo-shopped Québec photos today!",
+      "location": "Canada",
       "price": 50,
-      "url": "url"
+      "url": "/images/citadelle.jpg"
+    },
+    {
+      "id": 3,
+      "title": "L'eglise Notre Dame des Victoires",
+      "summary": "No vacation photo collection is complete without a photo of a church. Order a Fomo-shopped photo of you in front of L'eglise Notre Dame des Victoires in Québec.",
+      "location": "Canada",
+      "price": 50,
+      "url": "/images/eglise-notre-dame-des-victoires.jpg"
     }
+
   ]
 }
-      
