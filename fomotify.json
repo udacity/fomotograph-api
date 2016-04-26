@@ -4,25 +4,25 @@
       "id": 1,
       "title": "Basse-Ville, Québec",
       "summary": "Pretend you've been strolling down the charming streets of Basse-Ville, Québec. Order your Fomo-shopped Québec photos today!",
-      "location": "Canada",
+      "location": "canada",
       "price": 30,
-      "url": "/images/basse-ville.jpg"
+      "url": "/images/canada/basse-ville.jpg"
     },
     {
       "id": 2,
       "title": "La Citadelle de Québec",
       "summary": "Do you like castles? Do you like Canada? Pretend you visited a castle in Canada! Order your Fomo-shopped Québec photos today!",
-      "location": "Canada",
+      "location": "canada",
       "price": 50,
-      "url": "/images/citadelle.jpg"
+      "url": "/images/canada/citadelle.jpg"
     },
     {
       "id": 3,
       "title": "L'eglise Notre Dame des Victoires",
       "summary": "No vacation photo collection is complete without a photo of a church. Order a Fomo-shopped photo of you in front of L'eglise Notre Dame des Victoires in Québec.",
-      "location": "Canada",
+      "location": "canada",
       "price": 50,
-      "url": "/images/eglise-notre-dame-des-victoires.jpg"
+      "url": "/images/canada/eglise-notre-dame-des-victoires.jpg"
     }
 
   ]
