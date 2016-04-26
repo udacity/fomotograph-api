@@ -262,7 +262,7 @@
       "summary": "Too hot in Arizona, but still want to visit Arcosanti? Brag to your friends about visiting this experimental town.",
       "location": "United States",
       "price": 50,
-      "url": "/images/United States/arcosanti.jpg"
+      "url": "/images/usa/arcosanti.jpg"
     },
     {
       "id": 33,
@@ -270,7 +270,7 @@
       "summary": "Love science, but Arizona's temperature is just not working for you? Order your Fomoshopped photo of Biosphere 2!",
       "location": "United States",
       "price": 50,
-      "url": "/images/United States/biosphere-2.jpg"
+      "url": "/images/usa/biosphere-2.jpg"
     },
     {
       "id": 34,
@@ -278,7 +278,7 @@
       "summary": "The Golden Gate Bridge is awesome. Pretend you visited it by ordering your photo from Fomotify! (Pro tip: The Golden Gate Bridge is not really gold.)",
       "location": "United States",
       "price": 50,
-      "url": "/images/United States/golden-gate-bridge.jpg"
+      "url": "/images/usa/golden-gate-bridge.jpg"
     },
     {
       "id": 35,
@@ -286,7 +286,7 @@
       "summary": "Washington D.C. is awesome, and you weren't there. Pretend you visited the Lincoln Memorial today!",
       "location": "United States",
       "price": 50,
-      "url": "/images/United States/lincoln-memorial.jpg"
+      "url": "/images/usa/lincoln-memorial.jpg"
     },
     {
       "id": 36,
@@ -294,7 +294,7 @@
       "summary": "Pretend you visited Washington (state, not D.C.) by ordering your custom Fomoshopped photo of the Space Needle.",
       "location": "United States",
       "price": 50,
-      "url": "/images/United States/space-needle.jpg"
+      "url": "/images/usa/space-needle.jpg"
     },
     {
       "id": 37,
@@ -302,7 +302,7 @@
       "summary": "Never seen the Statue of Liberty in person? Well, get this photo of the Statue of Liberty today (taken from the Staten Island Ferry) and pretend you did!",
       "location": "United States",
       "price": 50,
-      "url": "/images/United States/statue-of-liberty.jpg"
+      "url": "/images/usa/statue-of-liberty.jpg"
     },
     {
       "id": 38,
@@ -310,7 +310,7 @@
       "summary": "Never visited the Washington Monument? Order this photo and we'll Fomoshop you right into the picture. Just tell your friends it looks pretty tall.",
       "location": "United States",
       "price": 50,
-      "url": "/images/United States/washington-monument.jpg"
+      "url": "/images/usa/washington-monument.jpg"
     },
     {
       "id": 39,
