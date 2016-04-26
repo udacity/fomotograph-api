@@ -226,19 +226,19 @@
     },
     {
       "id": 28,
-      "title": "Green Island",
-      "summary": "Taiwan is waiting for you! Pretend you walked along this beautiful staircase on Green Island!",
-      "location": "taiwan",
-      "price": 50,
-      "url": "/images/taiwan/green-island.jpg"
-    },
-    {
-      "id": 29,
       "title": "National Revolutionary Martyr's Shrine",
       "summary": "Pretend you visited Taiwan's National Revolutionary Martyr's Shrine! Order your Fomoshopped Taiwan photos today!",
       "location": "taiwan",
       "price": 50,
       "url": "/images/taiwan/national-revolutionary-martyrs-shrine.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Green Island",
+      "summary": "Taiwan is waiting for you! Pretend you walked along this beautiful staircase on Green Island!",
+      "location": "taiwan",
+      "price": 50,
+      "url": "/images/taiwan/green-island.jpg"
     },
     {
       "id": 30,
