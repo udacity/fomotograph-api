@@ -1,1 +1,1 @@
-web: bundle exec ruby fomotify.rb -p $PORT
+web: bundle exec ruby fomotograph.rb -p $PORT
