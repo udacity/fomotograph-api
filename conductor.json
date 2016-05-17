@@ -10,7 +10,7 @@
     "env": {
       "SERVICE_4567_NAME": "$SERVICE_NAME",
         "SERVICE_4567_TAGS": "public",
-        "SERVICE_4567_CHECK_HTTP": "/healthcheck",
+        "SERVICE_4567_CHECK_HTTP": "/products.json",
         "SERVICE_4567_CHECK_INTERVAL": "20s",
         "SERVICE_4567_CHECK_TIMEOUT": "10s"
       },
