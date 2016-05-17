@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Basse-Ville, Québec",
-      "summary": "Pretend you've been strolling down the charming streets of Basse-Ville, Québec. Order your Fomo-shopped Québec photos today!",
+      "summary": "Pretend you've been strolling down the charming streets of Basse-Ville, Québec. Order your Fomotograph today!",
       "location": "canada",
       "price": 30,
       "url": "/images/canada/basse-ville.jpg"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "La Citadelle de Québec",
-      "summary": "Do you like castles? Do you like Canada? Pretend you visited a castle in Canada! Order your Fomo-shopped Québec photos today!",
+      "summary": "Do you like castles? Do you like Canada? Pretend you visited a castle in Canada! Order your Fomotograph today!",
       "location": "canada",
       "price": 50,
       "url": "/images/canada/citadelle.jpg"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "title": "L'eglise Notre Dame des Victoires",
-      "summary": "No vacation photo collection is complete without a photo of a church. Order a Fomo-shopped photo of you in front of L'eglise Notre Dame des Victoires in Québec.",
+      "summary": "No vacation photo collection is complete without a photo of a church. Order a Fomotograph of you in front of L'eglise Notre Dame des Victoires in Québec.",
       "location": "canada",
       "price": 50,
       "url": "/images/canada/eglise-notre-dame-des-victoires.jpg"
@@ -71,14 +71,6 @@
       "location": "england",
       "price": 50,
       "url": "/images/england/stonehenge.jpg"
-    },
-    {
-      "id": 10,
-      "title": "Trafalgar Square",
-      "summary": "Pretend you visited this historic landmark commemorating the Battle of Trafalgar. Your friends will be jealous and wish they were there!",
-      "location": "england",
-      "price": 50,
-      "url": "/images/england/trafalgar-square.jpg"
     },
     {
       "id": 11,
@@ -142,7 +134,7 @@
       "summary": "The view of Paris from the top of the Arc de Triomphe is amazing. Pretend you saw it too! Get your Arc de Triomphe photo now!",
       "location": "france",
       "price": 50,
-      "url": "/images/france/versailles.jpg"
+      "url": "/images/france/arc-de-triomphe-view.jpg"
     },
     {
       "id": 19,
