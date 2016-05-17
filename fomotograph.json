@@ -161,14 +161,6 @@
       "url": "/images/ireland/derry.jpg"
     },
     {
-      "id": 21,
-      "title": "James Joyce",
-      "summary": "Are you a James Joyce fan? Well, Dublin is where it's at. Even if you can't visit, you can pretend you did.",
-      "location": "ireland",
-      "price": 50,
-      "url": "/images/ireland/james-joyce.jpg"
-    },
-    {
       "id": 22,
       "title": "Dunluce Castle",
       "summary": "Dunluce Castle is a treat. And you can pretend you had that treat by ordering a custom Fomotify photo now!",
@@ -281,14 +273,6 @@
       "url": "/images/us/lincoln-memorial.jpg"
     },
     {
-      "id": 36,
-      "title": "Space Needle",
-      "summary": "Pretend you visited Washington (state, not D.C.) by ordering your custom Fomoshopped photo of the Space Needle.",
-      "location": "us",
-      "price": 50,
-      "url": "/images/us/space-needle.jpg"
-    },
-    {
       "id": 37,
       "title": "Statue of Liberty",
       "summary": "Never seen the Statue of Liberty in person? Well, get this photo of the Statue of Liberty today (taken from the Staten Island Ferry) and pretend you did!",
@@ -306,32 +290,32 @@
     },
     {
       "id": 39,
-      "title": "mexico",
-      "summary": "Mexico is so much fun to visit! You can also pretend you visited there by ordering your photos from Fomotify today!",
+      "title": "Relaxing on the Beach in Mexico",
+      "summary": "Pretend you had the most relaxing beach visit in Mexico! Order your Fomotograph today!",
       "location": "mexico",
       "price": 50,
       "url": "/images/mexico/mexico1.jpg"
     },
     {
       "id": 40,
-      "title": "mexico",
-      "summary": "Mexico is so much fun to visit! You can also pretend you visited there by ordering your photos from Fomotify today!",
+      "title": "Beautiful Stone Ruins in Mexico",
+      "summary": "Who wouldn't want their photo here? It's beautiful! You can also pretend you visited there by ordering your photos from Fomotograph today!",
       "location": "mexico",
       "price": 50,
       "url": "/images/mexico/mexico2.jpg"
     },
     {
       "id": 41,
-      "title": "mexico",
-      "summary": "Mexico is so much fun to visit! You can also pretend you visited there by ordering your photos from Fomotify today!",
+      "title": "Beachside Ruins in Mexico",
+      "summary": "Get a different view of the beautiful stone ruins in Mexico. This one has a beach as well! Order your Fomotograph today!",
       "location": "mexico",
       "price": 50,
       "url": "/images/mexico/mexico3.jpg"
     },
     {
       "id": 42,
-      "title": "mexico",
-      "summary": "Mexico is so much fun to visit! You can also pretend you visited there by ordering your photos from Fomotify today!",
+      "title": "Beachside Cliffs in Mexico",
+      "summary": "It's like an image from a movie! Pretend you were actually here by ordering your Fomotograph today!",
       "location": "mexico",
       "price": 50,
       "url": "/images/mexico/mexico4.jpg"
