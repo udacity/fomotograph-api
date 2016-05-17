@@ -48,7 +48,7 @@
     ],
     "healthChecks": [
       {
-        "path": "/healthcheck",
+        "path": "/products.json",
         "portIndex": 0,
         "protocol": "HTTP",
         "gracePeriodSeconds": 5,
