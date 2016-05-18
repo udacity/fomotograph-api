@@ -51,7 +51,7 @@
         "path": "/products.json",
         "portIndex": 0,
         "protocol": "HTTP",
-        "gracePeriodSeconds": 600,
+        "gracePeriodSeconds": 5,
         "intervalSeconds": 20,
         "timeoutSeconds": 10,
         "maxConsecutiveFailures": 3,
