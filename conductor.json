@@ -8,7 +8,8 @@
     "instances": 1,
     "constraints": [["hostname", "UNIQUE"], ["az", "GROUP_BY", "3"]],
     "env": {
-      "SERVICE_4567_NAME": "$SERVICE_NAME",
+        "RACK_ENV": "production",
+        "SERVICE_4567_NAME": "$SERVICE_NAME",
         "SERVICE_4567_TAGS": "public",
         "SERVICE_4567_CHECK_HTTP": "/products.json",
         "SERVICE_4567_CHECK_INTERVAL": "20s",
