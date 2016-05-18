@@ -8,8 +8,6 @@
     "instances": 1,
     "constraints": [["hostname", "UNIQUE"], ["az", "GROUP_BY", "3"]],
     "env": {
-        "RAILS_ENV": "production",
-        "RACK_ENV": "production",
         "SERVICE_4567_NAME": "$SERVICE_NAME",
         "SERVICE_4567_TAGS": "public",
         "SERVICE_4567_CHECK_HTTP": "/products.json",
