@@ -1,1 +1,1 @@
-web: bundle exec ruby fomotograph.rb -p $PORT
+web: bundle exec ruby fomotograph.rb -p 4567
