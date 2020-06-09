@@ -1,6 +1,6 @@
 BERLIOZ_GROUP     := udacity
 BERLIOZ_NAME      := fomotograph-api
-DOCKER_REPO       := $(BERLIOZ_GROUP)/$(BERLIOZ_NAME)
+DOCKER_REPO       := docker.udacity.com/$(BERLIOZ_GROUP)/$(BERLIOZ_NAME)
 SERVICE_NAME      := $(BERLIOZ_NAME)
 VERSION           ?= $(shell git rev-parse --short HEAD)
 export

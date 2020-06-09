@@ -5,7 +5,7 @@ machine:
   services:
     - docker
   post:
-    - docker login -e sal9000@udacity.com -u udacityberliozci -p $DOCKER_PASS
+    - echo $UDACITY_DOCKER_PASS | docker login -u $UDACITY_DOCKER_USER --password-stdin docker.udacity.com
 
 test:
   override:
