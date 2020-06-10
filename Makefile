@@ -3,37 +3,31 @@ BERLIOZ_NAME      := fomotograph-api
 DOCKER_REPO       := docker.udacity.com/$(BERLIOZ_GROUP)/$(BERLIOZ_NAME)
 SERVICE_NAME      := $(BERLIOZ_NAME)
 VERSION           ?= $(shell git rev-parse --short HEAD)
+CONDUCTOR_APP_ID  := 37eb0c76-d759-11e6-bc82-dbb131c6e091
 export
 
-.PHONY: all build test coveralls deploy
+.PHONY: all build push test coveralls deploy-production deploy-staging
 
 all: build
 
 test:
-
-
-build: test
-
+	@echo "Nothing to test?"
 
 coveralls: test
+	@echo "Nothing to cover?"
 
-
-docker: build
+build:
 	docker build -t $(SERVICE_NAME) .
-	docker tag -f $(SERVICE_NAME) $(DOCKER_REPO):$(VERSION)
-	docker push $(DOCKER_REPO)
+	docker tag $(SERVICE_NAME) $(DOCKER_REPO):$(VERSION)
 
-stage:  docker
+push:
+	docker push $(DOCKER_REPO):$(VERSION)
 
-	BERLIOZ_SUBGROUP=staging \
-	SERVICE_NAME=$(SERVICE_NAME)-staging \
-	eval echo `sed 's/"/\\\\"/g' conductor.json` | curl -i -s \
-	https://conductor-api.udacity.com/v1/deployments -d @- \
-	-H 'Content-Type: application/json'
+_deploy: push
+	curl -X PUT "https://conductor-beta.udacity.com/api/v1/apps/$(CONDUCTOR_APP_ID)/deploy" \
+		-H 'X-GitHub-Access-Token: $(CI_GITHUB_ACCESS_TOKEN)' \
+		-d '{"environment": "$(ENVIRONMENT)", "image": "$(DOCKER_REPO):$(VERSION)"}'
 
-deploy: docker
+deploy: ENVIRONMENT=production
+deploy: _deploy
 
-	BERLIOZ_SUBGROUP=production \
-	eval echo `sed 's/"/\\\\"/g' conductor.json` | curl -i -s \
-	https://conductor-api.udacity.com/v1/deployments -d @- \
-	-H 'Content-Type: application/json'
