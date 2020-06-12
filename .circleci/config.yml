@@ -23,13 +23,13 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker
-      - docker_login      
+      - docker_login
       - run:
           name: Test & Coverage
           command: make coveralls
       - run:
           name: Build
-          command: make build                
+          command: make build
 
   deploy:
     executor: default
@@ -45,7 +45,7 @@ workflows:
   build-deploy:
     jobs:
       - test:
-          context: org-global                            
+          context: org-global
       - deploy:
           context: org-global
           requires:
