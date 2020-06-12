@@ -16,3 +16,7 @@ get '/erasurez' do
   content_type :json
   data.to_json
 end
+
+not_found do
+  'Not Found'
+end
