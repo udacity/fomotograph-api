@@ -1,0 +1,55 @@
+version: 2.1
+
+executors:
+  default:
+    docker:
+      - image: circleci/ruby:2.2
+
+commands:
+  default_setup_remote_docker:
+    steps:
+      - setup_remote_docker:
+          version: 18.06.0-ce
+          docker_layer_caching: true
+  docker_login:
+    steps:
+      - run:
+          name: Logging into Docker
+          command: docker login -u $UDACITY_DOCKER_USER -p $UDACITY_DOCKER_PASS docker.udacity.com
+
+jobs:
+  test:
+    executor: default
+    steps:
+      - checkout
+      - setup_remote_docker
+      - docker_login      
+      - run:
+          name: Test
+          command: make test
+      - run:
+          name: Build
+          command: make build                
+
+  deploy:
+    executor: default
+    steps:
+      - setup_remote_docker
+      - docker_login
+      - run:
+          name: Deploy to production
+          command: make deploy
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - test:
+          context: org-global                            
+      - deploy:
+          context: org-global
+          requires:
+              - test
+          filters:
+            branches:
+                only: master
