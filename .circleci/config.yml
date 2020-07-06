@@ -34,6 +34,7 @@ jobs:
   deploy:
     executor: default
     steps:
+      - checkout
       - setup_remote_docker
       - docker_login
       - run:
