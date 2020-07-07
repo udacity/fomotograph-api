@@ -22,6 +22,7 @@ push:
 
 
 deploy: ENVIRONMENT=production
+deploy: build
 deploy: push
 	# Deploy to Conductor
 	@curl --fail -X PUT "https://conductor-beta.udacity.com/api/v1/apps/$(CONDUCTOR_APP_ID)/deploy" \
