@@ -22,8 +22,7 @@ push:
 
 
 deploy: ENVIRONMENT=production
-deploy: build
-deploy: push
+deploy: build push
 	# Deploy to Conductor
 	@curl --fail -X PUT "https://conductor-beta.udacity.com/api/v1/apps/$(CONDUCTOR_APP_ID)/deploy" \
 		-H 'X-GitHub-Access-Token: $(CI_GITHUB_ACCESS_TOKEN)' \
