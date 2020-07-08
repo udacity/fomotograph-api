@@ -1,7 +1,13 @@
 FROM docker.udacity.com/udacity/ruby:2.5
-RUN apk-install make gcc musl-dev
-RUN bundle config set without 'development test' \
+
+RUN apk add make gcc musl-dev
+RUN apk add ruby-webrick ruby-etc
+
+ADD Gemfile Gemfile.lock fomotograph.json fomotograph.rb README.md /app/
+
+RUN bundle config --local set without 'development test' \
+    && bundle config --local deployment true \
     && bundle install --jobs 20 --retry 5
-ADD . /app
+
 ENV RACK_ENV production
-CMD ["ruby", "fomotograph.rb", "-p", "4567"]
+CMD ["bundle", "exec", "ruby", "fomotograph.rb", "-p", "4567"]
