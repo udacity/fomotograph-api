@@ -1,4 +1,6 @@
 version: 2.1
+orbs:
+  ucheck: udacity/ucheck@1
 
 executors:
   default:
@@ -23,14 +25,13 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker
-      - docker_login      
+      - docker_login
       - run:
           name: Test
           command: make test
       - run:
           name: Build
-          command: make build                
-
+          command: make build
   deploy:
     executor: default
     steps:
@@ -46,11 +47,16 @@ workflows:
   build-deploy:
     jobs:
       - test:
-          context: org-global                            
+          context: org-global
       - deploy:
           context: org-global
           requires:
-              - test
+            - test
           filters:
             branches:
-                only: master
+              only: master
+      - ucheck/ucheck:
+          context: org-global
+          filters:
+            tags:
+              only: /^ucheck-.*/
