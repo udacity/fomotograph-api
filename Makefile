@@ -11,7 +11,13 @@ export
 all: build
 
 test:
-	@echo "Nothing to test..."
+	docker-compose up -d --build && sleep 10
+	# docker-compose exec test curl http://app:4567/healthcheck
+	docker-compose exec test curl http://app:4567/products.json -o /tmp/test1
+	docker-compose exec test jq '.' /tmp/test1
+	docker-compose exec test curl http://app:4567/erasurez -o /tmp/test2
+	docker-compose exec test jq '.' /tmp/test2
+	docker-compose down
 
 build:
 	docker build -t $(SERVICE_NAME) .
