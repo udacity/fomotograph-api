@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "4567:4567"
+  test:
+    image: cimg/base:2024.01
+    command: sleep 1000

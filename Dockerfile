@@ -11,5 +11,9 @@ RUN bundle config --local set without 'development test' \
     && bundle config --local deployment true \
     && bundle install --jobs 20 --retry 5
 
+RUN adduser --disabled-password -u 1001 appuser \
+   && chown -R appuser:appuser /app
+
+USER appuser:appuser
 ENV RACK_ENV production
 CMD ["bundle", "exec", "ruby", "fomotograph.rb", "-p", "4567"]
