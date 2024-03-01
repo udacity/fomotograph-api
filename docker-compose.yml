@@ -6,5 +6,5 @@ services:
     ports:
       - "4567:4567"
   test:
-    image: cimg/base:2024.01
+    image: cimg/base:2024.02
     command: sleep 1000
